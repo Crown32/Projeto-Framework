@@ -1,0 +1,50 @@
+/*basic formatting*/
+*{
+    scroll-behavior: smooth;
+}
+
+/*Body Formatting*/
+body{
+    background-color: #06090F;
+}
+
+/*Navbar formatting*/
+.navbar{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.navbar-brand{
+    font-size: 25px;
+}
+
+/*Table Formatting*/
+.table-div{
+    height: 77vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table{
+    margin-top: auto;
+    width: 90%;
+}
+
+
+/*Footer*/
+footer{
+    text-align: center;
+    color: #6A949E;
+    justify-content: center;
+    width: 100%;
+    font-size: 14px;
+    height: 45px;
+}
+
+.footer-line{
+    background-color:#6A949E ;
+    color: #6A949E;
+}
