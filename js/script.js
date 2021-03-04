@@ -18,8 +18,7 @@ fetch("https://jsonplaceholder.typicode.com/posts")
     });
   })
   .catch((err) => {
-    alert(err);
+    console.log(err);
   });
 
 //Fazer as outras páginas com as tabelas e dar uma embelezada na parada, só isso mermo
-
