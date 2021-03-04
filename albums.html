@@ -20,7 +20,7 @@
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">RNG Tables</a>
+        <a class="navbar-brand" href="#"><img src="icons/iconmonstr-code-2.svg" height="30px" style="margin-right: 10px; margin-bottom: 5px;" alt="Code Icon">Tables</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,6 +35,26 @@
       </div>
     </nav>
 
+    <!--Albums Table-->
+    <div class="table-div container-fluid">
+      <div>
+        <table class="table table-dark table-striped" >
+          <thead>
+            <tr>
+              <th scope="col">User</th>
+              <th scope="col">PostID</th>
+              <th scope="col">Post Title</th>
+            </tr>
+          </thead>
+
+          <tbody id="table-body">
+
+          </tbody>
+          <caption>Albums Table</caption>
+        </table>
+      </div>
+    </div>
+
     <!--Footer with Copyright-->
     <footer>
       <hr class="footer-line">
@@ -46,5 +66,5 @@
       <!-- Bootstrap CSS -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
       <!--Personal JS-->
-      <script src="js/script.js"></script>
+      <script src="js/albums.js"></script>
 </html>
