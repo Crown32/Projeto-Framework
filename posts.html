@@ -22,13 +22,21 @@
 
     <!--Personal CSS-->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!--Browser tab icon-->
+    <link rel="icon" href="icons/iconmonstr-code-2.svg">
+    
     <title>Let's go Framework</title>
   </head>
   <body>
+    <!--loading animation-->
+    <div id="loading-animation">
+      <div class="spinner-grow" role="status"><span class="visually-hidden">Loading...</span></div>
+    </div>
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="icons/iconmonstr-code-2.svg" height="30px" style="margin-right: 10px; margin-bottom: 5px;" alt="Code Icon">Tables</a>
+        <a class="navbar-brand" href="index.html"><img src="icons/iconmonstr-code-2.svg" height="30px" style="margin-right: 10px; margin-bottom: 5px;" alt="Code Icon">Tables</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -56,7 +64,7 @@
     <!--Posts Table-->
     <div class="table-div container-fluid">
       <div>
-        <table class="table table-dark table-striped" >
+        <table class="table table-dark table-striped">
           <thead>
             <tr>
               <th scope="col">User</th>
