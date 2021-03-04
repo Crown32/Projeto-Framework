@@ -4,7 +4,6 @@ fetch("https://jsonplaceholder.typicode.com/posts")
     return response.json();
   })
   .then((data) => {
-    console.log(data);
 
     data.forEach((element) => {
       const userId = element.userId;
@@ -20,5 +19,3 @@ fetch("https://jsonplaceholder.typicode.com/posts")
   .catch((err) => {
     console.log(err);
   });
-
-//Fazer as outras páginas com as tabelas e dar uma embelezada na parada, só isso mermo
