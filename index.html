@@ -14,32 +14,56 @@
 
     <!--Personal CSS-->
     <link rel="stylesheet" href="css/style.css">
+
+    <!--Browser tab icon-->
+    <link rel="icon" href="icons/iconmonstr-code-2.svg">
+    
     <title>Let's go Framework</title>
   </head>
   <body>
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="icons/iconmonstr-code-2.svg" height="30px" style="margin-right: 10px; margin-bottom: 5px;" alt="Code Icon">Tables</a>
+        <a class="navbar-brand" href="index.html"><img src="icons/iconmonstr-code-2.svg" height="30px" style="margin-right: 10px; margin-bottom: 5px;" alt="Code Icon">Tables</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
           <div class="navbar-nav" >
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            <a class="nav-link" href="posts.html">Posts</a>
-            <a class="nav-link" href="albums.html">Albums</a>
-            <a class="nav-link" href="todos.html">TO-DOs</a>
           </div>
         </div>
       </div>
     </nav>
+    <!--Parallax div-->
+    <a style="text-decoration: none; color: white;" href="posts.html">
+    <section class="parallax parallax-posts">
+      <div class="container">
+        <h1>Posts</h1>
+      </div>
+    </section>
+    </a>
+
+    <a style="text-decoration: none; color: white;" href="albums.html">
+    <section class="parallax parallax-albums">
+      <div class="container">
+        <h1>Albums</h1>
+      </div>
+    </section>
+    </a>
+
+    <a style="text-decoration: none; color: white;" href="todos.html">
+    <section class="parallax parallax-todos">
+      <div class="container">
+        <h1>TO-DOs</h1>
+      </div>
+    </section>
+    </a>
 
     <!--Footer with Copyright-->
     <footer>
       <hr class="footer-line">
       <div>
-        Copyright © 2021 Lucas Eleutério Bueno, All Right Reserved 
+        Copyright © 2021 Lucas Eleutério Bueno
       </div>
     </footer>
   </body>
