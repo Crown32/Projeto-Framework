@@ -21,7 +21,15 @@ fetch("https://jsonplaceholder.typicode.com/todos")
       const tableRow = `<tr><th scope="row">${userId}</th><td>${taskId}</td><td>${taskTitle}</td><td>${taskCompleted}</td></tr>`;
       tableBody.innerHTML += tableRow;
     });
+    loadingOff();
   })
   .catch((err) => {
     console.log(err);
   });
+
+  //Getting of the loading animation
+function loadingOff() {
+  const loadingAnimationHidden = `<div class="spinner-grow" role="status" hidden><span class="visually-hidden">Loading...</span></div>`
+  const loadingDiv = document.getElementById("loading-animation");
+  loadingDiv.innerHTML = loadingAnimationHidden;
+}
