@@ -15,6 +15,17 @@ body {
   justify-content: space-between;
 }
 
+/*loading animation formatting*/
+#loading-animation{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  bottom: 50vh;
+  top: 50vh;
+  left: 50vw;
+  right: 50vw;
+}
+
 /*Navbar formatting*/
 .navbar {
   font-size: 20px;
@@ -45,6 +56,7 @@ body {
   max-width: 90%;
   min-width: 700px;
 }
+
 caption{
     text-align: center;
 }
@@ -57,6 +69,67 @@ caption{
   .table-div {
     justify-content: unset;
   }
+}
+
+/*Home Parallax*/
+section.parallax {
+  position: relative;
+  height: auto;
+  padding: 180px 0px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+section.parallax:hover {
+  text-decoration: underline;
+}
+
+section.parallax:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.30);
+  z-index: 100;
+  content: ' ';
+}
+
+section.parallax h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #fff;
+  position: relative;
+  z-index: 101;
+  font-size: 48px;
+  line-height: 1.5;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section.parallax h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+section.parallax.parallax-posts {
+  background-image: url("../img/posts.jpg");
+  background-position: center;
+}
+
+section.parallax.parallax-albums {
+  background-image: url("../img/albums.jpg");
+  background-position: center;
+}
+
+section.parallax.parallax-todos {
+  background-image: url("../img/todo.jpg");
+  background-position: center;
 }
 
 /*Scrollbar formatting*/
